@@ -1,0 +1,7 @@
+.idea/
+*.swp
+*.swo
+bin/*.exe
+coverage.out
+.agollo
+gowatch.yml
