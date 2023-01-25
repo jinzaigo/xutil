@@ -7,5 +7,12 @@ golang工具库，收集商业实战项目中的常用工具方法，以及PHP�
 go get -u github.com/jinzaigo/xutil
 ```
 
-## Features
-* xutil.StructToMap(xxx) 将struct优雅的转换为map
+## 工具能力
+- xutil.StructToMap() 将struct优雅的转换为map
+- xjson.Marshal() json序列化操作方式1
+- xjson.MarshalToString() json序列化操作方式2
+- xjson.Unmarshal() json反序列化操作方式1
+- xjson.UnmarshalFromString() json反序列化操作方式2
+
+## 示例
+详见example目录下，对应工具分类的go文件
